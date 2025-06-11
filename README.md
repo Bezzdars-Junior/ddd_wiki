@@ -13,6 +13,7 @@
 Приложение состоит из 2 страниц: ___главное меню___ со списком всех проектов и ___страница конкретного проекта___.
 ### Страница главного меню
 ![image](https://github.com/user-attachments/assets/a0c1d75d-f6b1-4fda-90d1-754b4aad012e)
+[Сценарий старта страницы](https://github.com/Bezzdars-Junior/ddd_wiki/blob/master/main_screen.md)\
 Составляющие:
 1) Блок со списком избранных проектов; ![image](https://github.com/user-attachments/assets/6c72980b-cc85-46ce-b057-430ee4068141)
 2) Блок со списком всех проектов; ![image](https://github.com/user-attachments/assets/11ab2c6b-0f11-4b3a-ae13-c56781acc242)
