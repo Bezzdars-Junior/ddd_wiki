@@ -5,19 +5,19 @@
 ```json
  {
    [
-   "id": "0",
+   "id": 0,
    "dateTime" : "2025.06.04",
    "dateChange" : "2025.06.04",
    "description" : "Описание проекта",
-   "favorite" : "false",
+   "favorite" : false,
    "projectName" : "DDD",
    ],
    [
-   "id": "1",
+   "id": 1,
    "dateTime" : "2025.06.04",
    "dateChange" : "2025.06.04",
    "description" : "Ту ту ту ту ту",
-   "favorite" : "true",
+   "favorite" : true,
    "projectName" : "Крутой проект",
    ],
    []  
@@ -26,10 +26,10 @@
 
 |Имя поля|Тип данных|Описание|
 |-|--------|---|
-|id|String|ID проекта|
+|id|int|ID проекта|
 |dateTime|String|Дата создания проекта|
 |dateChange|String|Дата последнего обновления проекта|
 |description|String|Описание проекта|
-|favorite|String|Признак, который показывает избранный ли проект|
+|favorite|bool|Признак, который показывает избранный ли проект|
 |projectName|String|Имя проекта|
 
