@@ -12,6 +12,7 @@
    "description" : "Описание проекта",
    "favourite" : false,
    "projectName" : "DDD",
+   "image" : "https://media1.tenor.com/m/BSYeNq2POsQAAAAC/gachimuchi.gif"
    },
    {
    "id": 1,
@@ -20,6 +21,7 @@
    "description" : "Ту ту ту ту ту",
    "favourite" : true,
    "projectName" : "Крутой проект",
+   "image" : "https://media1.tenor.com/m/BSYeNq2POsQAAAAC/gachimuchi.gif"
    },
    {}
 ]
@@ -34,6 +36,7 @@
 |description|String|Описание проекта|
 |favourite|bool|Поле, в котором хранится информация о признаке "избранная" у проекта|
 |projectName|String|Имя проекта|
+|image|String|Ссылка на картинку из интернета|
 
 ## Сценарий добавления нового проекта
 Пользователь кликает на иконку добавления нового проекта и заполняет поля с названием проекта и его описанием. Затем отправляется post запрос на сервер localhost:8080/main_page: \
@@ -42,7 +45,8 @@
  {
 "projectName": "project_1",
 "description": "description_1"
-"favourite": false
+"favourite": false,
+"image" : "https://media1.tenor.com/m/BSYeNq2POsQAAAAC/gachimuchi.gif"
  }
 ```
 Новый проект должен сохраниться в базу данных. В ответ должен прийти json с присвоенным id и временем создания и изменения:
@@ -53,7 +57,8 @@
    "dateChange" : "23-12-2024 22:00:00",
    "description" : "description_1",
    "favourite" : false,
-   "projectName" : "project_1", 
+   "projectName" : "project_1",
+   "image" : "https://media1.tenor.com/m/BSYeNq2POsQAAAAC/gachimuchi.gif"
  }
 ```
 
@@ -72,6 +77,7 @@
 "projectName": "project_1",
 "description": "description_1"
 "favourite" : true,
+"image" : "https://media1.tenor.com/m/BSYeNq2POsQAAAAC/gachimuchi.gif"
  }
 ```
 Изменения проекта должны сохраниться в базу данных. 
